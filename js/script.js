@@ -21,7 +21,7 @@ function crossOut() {
   li.toggleClass('strike');
 }
   //Created Event Listener: when item is double-clicked, it will be striked
-  li.on('dblclick', function crossOut() {
+  li.on('dblclick', crossOut);
     li.toggleClass('strike');
   });
 
